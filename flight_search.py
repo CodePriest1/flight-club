@@ -6,7 +6,8 @@ SEARCH_KEY = "SEARCH KEY"
 class FlightSearch:
     #This class is responsible for talking to the Flight Search API.
     pass
-
+    
+    #This function is to get the IATACODE by passing each city from our sheet to Kiwi. It returns the IATACODE whch we pass to the sheets using the Class Data_Manager
     def get_location_data(self, city):
         header = {"apikey": SEARCH_KEY}
         query = {"term": city, "location_types": "city"}
