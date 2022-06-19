@@ -25,10 +25,11 @@ six_months_from_today = today + timedelta(days=6 * 30)
 
 if sheet_data[0]["iataCode"] == "":
     for row in sheet_data:
+        #To get the IATACODE for each city my passing the city to Kiwi using the object fs from Class FlightSearch
         row["iataCode"] = fs.get_location_data(row["city"])
     print(sheet_data)
-    # data_manager.sheet_data = sheet_data
-    data_manager.update_code()
+    data_manager.sheet_data = sheet_data #new sheet data with IATACODES
+    data_manager.update_code() 
 for destination in sheet_data:
     flight = fs.check_flight(ORIGIN_IATA_CODE,
                              destination["iataCode"],
