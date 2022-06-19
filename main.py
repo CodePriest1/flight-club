@@ -1,3 +1,10 @@
+#MAIN AIM; The aim of this code is to get a text whenever there's an available flight with a price lower than what we have in the sheets. In my case, my departure is LONDON. So i'm looking to get a flight that goes from LONDON to any of those cities in the sheets, but at a ticket price lower than the prices set in the sheet. We should get a text message when the flight tickets are lower than the ticket prices on the sheet.
+#Make your copy of your own starting google sheet using the link https://docs.google.com/spreadsheets/d/1YMK-kYDYwuiGZoawQy7zyDjEIU9u8oggCV4H2M9j7os/edit#gid=0
+#go to file and make a copy of the sheet
+#Api required https://sheety.co/
+#You will need to login to kiwi to get started and to get the kiwi Api using https://partners.kiwi.com/
+#https://tequila.kiwi.com/portal/login to access the kiwi documentation
+#I'm making use of Twilio to be able to send text automatically, use the link to create an account https://www.twilio.com/docs/sms
 from flight_search import FlightSearch
 from data_manager import DataManager
 from datetime import datetime, timedelta
