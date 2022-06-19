@@ -31,6 +31,7 @@ if sheet_data[0]["iataCode"] == "":
     data_manager.sheet_data = sheet_data #new sheet data with IATACODES
     data_manager.update_code() #This passes the actual IATACODES to sheety
 for destination in sheet_data:
+#We need to check is there is any available flight that goes from LONDON to any of the cities in our sheet by passing it to the Class FlightSearch passing in our ORIGIN IATA CODE and each of the cities in our sheet, also passing tomorrow's date and date in 6 months from now
     flight = fs.check_flight(ORIGIN_IATA_CODE,
                              destination["iataCode"],
                              tomorrows_date.strftime("%d/%m/%Y"),
