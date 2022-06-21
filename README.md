@@ -26,6 +26,15 @@ Register with the Kiwi Partners Flight Search API
 Your account name should be the same as what you used later in "First name" and "Last name".
 There is no need to provide a credit card or billing information (you can skip that section) when you create your "Solution" (previously called "Application").
 Go to MY SOLUTION by the left panel and then click on CREATE SOLUTION, then choose META SEARCH as your product type, then choose ONE-WAY RETURN, then create.
+<img width="1213" alt="2021-01-29_16-19-23-a8c74121625c97789adc26f7bf985047" src="https://user-images.githubusercontent.com/88582897/174790116-57b4e2ad-5e54-4d9d-94c2-05e364b24570.png">
+
+https://img-c.udemycdn.com/redactor/raw/article_lecture/2021-01-29_16-18-22-59e7a95f77f5964329d8e1037721ab3b.png
+
+
+https://img-c.udemycdn.com/redactor/raw/article_lecture/2021-01-29_16-21-09-313d06d56e4eebcff7e01479b3d1f8d3.png
+
+https://img-c.udemycdn.com/redactor/raw/article_lecture/2021-01-29_16-22-24-471f5e3dc034a1a10b79f9f6c1201792.png
+
 
 data_manager.py is responsible for communicating with sheety
 notification_manager.py is reponsible for communicating with Twilio
