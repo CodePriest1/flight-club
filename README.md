@@ -30,3 +30,5 @@ Go to MY SOLUTION by the left panel and then click on CREATE SOLUTION, then choo
 data_manager.py is responsible for communicating with sheety
 notification_manager.py is reponsible for communicating with Twilio
 flight_search.py is responsible for interacting with Kiwi flight search to get IATACODE and get available flights
+flight_data.py is responsible for structuring the flight data
+
