@@ -18,6 +18,8 @@ If the price is lower than the lowest price listed in the Google Sheet then send
 
 The SMS should include the departure airport IATA code, destination airport IATA code, departure city, destination city, flight price and flight dates.e.g
 ![2020-07-30_10-15-26-8ea30ff9fc497564bddbee81e6f36da5](https://user-images.githubusercontent.com/88582897/174786945-b7622790-7e08-456b-a93a-382f23f755fb.png)
+
+
 Enable the PUT option, so you can write to google sheet
 
 Register with the Kiwi Partners Flight Search API
